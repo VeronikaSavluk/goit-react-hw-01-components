@@ -2,13 +2,14 @@
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin: 0 auto;
-width: 480px;
+margin: 40px auto;
+width: 350px;
+border: .5px solid rgba(160, 158, 158, 0.486);
+border-radius: 5px;
 }
 .description {
 text-align: center;
-padding: 40px 100px;
-width: 350px;
+padding: 40px 80px;
 }
 .avatar{
 width: 150px;
@@ -35,9 +36,8 @@ color: rgba(28, 27, 27, 0.342);
 .stats {
 display: flex;
 justify-content: center;
-margin: 0 auto;
-padding: 0 100px;
-width: 350px;
+margin: 0;
+padding: 0;
 text-align: center;
 list-style: none;
 font-size: 16px;
